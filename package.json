@@ -1,18 +1,13 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "targets": {
-    "main": false
-  },
+  "description": "A Tour Booking Website",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js",
-    "build": "parcel build ./public/js/index.js --dist-dir ./public/js/bundled",
-    "watch:js": "parcel watch ./public/js/index.js --dist-dir ./public/js/bundled"
+    "start": "nodemon ./api/index.js",
+    "start:prod": "NODE_ENV=production nodemon ./api/index.js"
   },
-  "author": "Eston Naicker",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.3",
@@ -40,7 +35,6 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
-    "parcel": "^2.12.0",
     "process": "^0.11.10"
   }
 }

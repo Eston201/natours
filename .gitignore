@@ -3,3 +3,5 @@ dev-data/
 *.env
 .DS_Store
 .parcel-cache
+.vercel
+vercel.json
